@@ -1,0 +1,51 @@
+.band-info-container {
+  width: 100%;
+  margin-top: 100px;
+  padding: 20px;
+}
+
+.band-info-text {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.band-info-text h1 {
+  width: 100%;
+  margin: 20px;
+}
+
+.band-info-text span {
+  margin: 10px;
+  color: grey;
+}
+.band-info-text p {
+  margin: 20px;
+}
+
+.band-info-cards {
+  width: 80%;
+  display: grid;
+  justify-content: space-around;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 50px;
+  padding: 40px;
+}
+
+.card {
+  border: 1px solid grey;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  filter: grayscale(70%);
+}

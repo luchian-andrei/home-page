@@ -1,0 +1,82 @@
+.tour-wrapper {
+  width: 100%;
+  background-color: black;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.tour-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.tour-text h1 {
+  width: 100%;
+  margin: 20px auto 20px;
+}
+
+.tour-text span {
+  width: 100%;
+  margin: 20px auto 20px;
+}
+
+.tour-list {
+  width: 100%;
+  margin: 20px auto 20px;
+}
+
+.tour-list li {
+  list-style: none;
+  background-color: #fff;
+  color: grey;
+  text-align: start;
+  padding: 10px;
+  border-bottom: 2px solid lightgrey;
+}
+
+#september,
+#october {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#november {
+  display: flex;
+  justify-content: space-between;
+}
+
+#sold-out {
+  background-color: red;
+  color: #fff;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+#three {
+  background-color: black;
+  color: #fff;
+  border-radius: 50% 50%;
+  width: 25px;
+  height: 25px;
+  padding: 5px;
+  margin-right: 20px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.tour-cards {
+  margin: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}

@@ -1,0 +1,29 @@
+.footer-container {
+  text-align: center;
+}
+
+.f-icons-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.f-icons-wrapper * {
+  margin: 5px;
+  color: grey;
+}
+
+.f-icons-wrapper *:hover {
+  opacity: 0.7;
+}
+
+#f-info-link {
+  margin: 20px;
+  color: grey;
+}
+
+#f-info-link a {
+  text-decoration: underline;
+  color: grey;
+}

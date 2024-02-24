@@ -25,19 +25,19 @@ export default function TourWrapper() {
         <TourCard
           location="New York"
           date="Fri 27 "
-          img="/images/newyork.jpg"
+          img="./images/newyork.jpg"
           id="newyork"
         />
         <TourCard
           location="Paris"
           date="Sat 28 "
-          img="/images/paris.jpg"
+          img="./images/paris.jpg"
           id="paris"
         />
         <TourCard
           location="San Francisco"
           date="Sun 29"
-          img="/images/sanfran.jpg"
+          img="./images/sanfran.jpg"
           id="sanfran"
         />
       </div>

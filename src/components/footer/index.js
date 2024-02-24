@@ -12,7 +12,7 @@ import {
 export default function Footer() {
   return (
     <div className="footer-container">
-      <img src="/images/map.jpg" alt="map" />
+      <img src="./images/map.jpg" alt="map" />
       <div className="f-icons-wrapper">
         <FontAwesomeIcon icon={faSquareFacebook} size="xl" />
         <FontAwesomeIcon icon={faInstagram} size="xl" />

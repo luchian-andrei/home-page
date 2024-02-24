@@ -22,15 +22,15 @@ export default function BandInfo() {
         <div className="band-info-cards">
           <div id="band" className="card">
             <p>Name</p>
-            <img src="/images/img1.jpg" alt="random img" />
+            <img src="./images/img1.jpg" alt="random img" />
           </div>
           <div className="card">
             <p>Name</p>
-            <img src="/images/img2.jpg" alt="random img" />
+            <img src="./images/img2.jpg" alt="random img" />
           </div>
           <div className="card">
             <p>Name</p>
-            <img src="/images/img3.jpg" alt="random img" />
+            <img src="./images/img3.jpg" alt="random img" />
           </div>
         </div>
       </div>
